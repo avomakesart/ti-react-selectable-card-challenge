@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.selectable_card__wrapper {
+  width: 19.35rem;
+  max-width: 100%;
+  min-height: 9.75rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.04), 0px 1px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  border: 1px solid #e7e7e700;
+  cursor: pointer;
+}
+
+.selectable_card__selected {
+  border: 1px solid #142c8e;
+}
+
+.selectable_card__title_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectable_card__title {
+  padding-top: 1.5rem;
+  padding-left: 1.125rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #0c0c0d;
+}
+
+.selectable_card__checked {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.selectable_card__description {
+  padding: 1.125rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #515354;
+}

@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem 0;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+@media (min-width: 624px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.selected-employee-container {
+  display: flex;
+  justify-content: start;
+  margin: 3rem 2rem;
+}
